@@ -39,7 +39,7 @@ public void draw()
 		int b = (int)(Math.random()*256);
 		int g = (int)(Math.random()*256);
 		int rX = (int)(Math.random()*7);
-		int rY = (int)(Math.random()*14)-7;
+		int rY = (int)(Math.random()*15)-7;
 		stroke(r,g,b);
 		endX=startX+rX;
 		endY=startY+rY;
